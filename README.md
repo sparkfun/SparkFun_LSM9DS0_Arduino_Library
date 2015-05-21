@@ -29,7 +29,9 @@ Products that use this Library
 Version History
 ---------------
 
-* [TODO](TODO) - Description
+* [V 1.0.2](https://github.com/sparkfun/SparkFun_LSM9DS0_Arduino_Library/releases/tag/V_1.0.2) -- Fixed bug in setAccelABW() function.
+* [V 1.0.1](https://github.com/sparkfun/SparkFun_LSM9DS0_Arduino_Library/releases/tag/V_1.0.1) -- Updated library.properties and standardized example names.
+* [V 1.0.0](https://github.com/sparkfun/SparkFun_LSM9DS0_Arduino_Library/releases/tag/V_1.0.0) -- Initial commit of Arduino 1.6-compatible library.
 
 License Information
 -------------------
