@@ -380,20 +380,8 @@ void loop()
 // See: http://www.ngdc.noaa.gov/geomag/declination.shtml
 void printHeading(float hx, float hy)
 {
-  if (hy > 0)
-  {
-    heading = 90 - (atan(hx / hy) * (180 / PI));
-  }
-  else if (hy < 0)
-  {
-    heading = - (atan(hx / hy) * (180 / PI));
-  }
-  else // hy = 0
-  {
-    if (hx < 0) heading = 180;
-    else heading = 0;
-  }
-  
+  heading = atan2(hy, hx) * (180.0 / PI);
+
   Serial.print("Heading: ");
   Serial.println(heading, 2);
 }
